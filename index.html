@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <input type="number" id="amount" autofocus>
+    <button onclick="addTransaction()">Add</button>
+  </div>
+  <div class="transaction-container">
+    <div>
+      <h3>Income</h3>
+      <ul id="incomeList"></ul>
+      <span id="totalIncome">0</span>
+    </div>
+    <div>
+      <h3>Expenses</h3>
+      <ul id="expenseList"></ul>
+      <span id="totalExpenses">0</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
